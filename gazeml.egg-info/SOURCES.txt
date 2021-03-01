@@ -1,0 +1,7 @@
+README.md
+setup.py
+gazeml.egg-info/PKG-INFO
+gazeml.egg-info/SOURCES.txt
+gazeml.egg-info/dependency_links.txt
+gazeml.egg-info/requires.txt
+gazeml.egg-info/top_level.txt
