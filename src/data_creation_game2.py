@@ -98,15 +98,14 @@ def create_dot(screen, screenSize):
     cv.circle(screen, (x,y), 10, (0,0,255), -1)
 
 def game_update(save_data):
-    print("update")
     data = {}
     
     if "face_orientation" in frame:
-        
         data["face_orientation"] = frame["face_orientation"]
         data["eye_L"] = frame["eyes"][0]
         data["eye_R"] = frame["eyes"][1]
-        
+        print(data)
+        print("#######################################")
         cv.putText(screen, 'face', (10,30), cv.FONT_HERSHEY_SIMPLEX, 1, (0,255,0),2, cv.LINE_AA)
         if save_data:
             game_save_data(data)
@@ -436,6 +435,7 @@ def _visualize_output():
                     ])
                     print('%08d [%s] %s' % (frame_index, fps_str, timing_string))
                     
+            game_update(False)
             if gameon:
                 game_update(False)
                 cv.imshow('game', screen)
