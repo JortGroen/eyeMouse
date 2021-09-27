@@ -5820,3 +5820,1641 @@ Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
 [32m24/01 09:20[0m [1;30mINFO[0m ------------------------------
 [32m24/01 09:20[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/GazeML/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
 [32m24/01 09:20[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/GazeML/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 20:00 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 20:00 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 20:00 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 20:00 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 20:00 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 20:00 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 20:00 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 20:00 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 20:00 INFO Built model.
+01/09 20:00 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 20:00 INFO ------------------------------
+01/09 20:00 INFO  Approximate Model Statistics 
+01/09 20:00 INFO ------------------------------
+01/09 20:00 INFO FLOPS per input: 204,377,682.0
+01/09 20:00 INFO Trainable Parameters: 150,813
+01/09 20:00 INFO ------------------------------
+01/09 20:00 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 20:00 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 20:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 20:10 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 20:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 20:10 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 20:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 20:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 20:10 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 20:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 20:10 INFO Built model.
+01/09 20:10 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 20:10 INFO ------------------------------
+01/09 20:10 INFO  Approximate Model Statistics 
+01/09 20:10 INFO ------------------------------
+01/09 20:10 INFO FLOPS per input: 204,377,682.0
+01/09 20:10 INFO Trainable Parameters: 150,813
+01/09 20:10 INFO ------------------------------
+01/09 20:10 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 20:10 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 20:12 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 20:12 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 20:12 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 20:12 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 20:12 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 20:12 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 20:12 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 20:12 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 20:12 INFO Built model.
+01/09 20:12 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 20:12 INFO ------------------------------
+01/09 20:12 INFO  Approximate Model Statistics 
+01/09 20:12 INFO ------------------------------
+01/09 20:12 INFO FLOPS per input: 204,377,682.0
+01/09 20:12 INFO Trainable Parameters: 150,813
+01/09 20:12 INFO ------------------------------
+01/09 20:12 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 20:12 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 20:13 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 20:13 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 20:13 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 20:13 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 20:13 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 20:13 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 20:13 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 20:13 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 20:13 INFO Built model.
+01/09 20:13 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 20:13 INFO ------------------------------
+01/09 20:13 INFO  Approximate Model Statistics 
+01/09 20:13 INFO ------------------------------
+01/09 20:13 INFO FLOPS per input: 204,377,682.0
+01/09 20:13 INFO Trainable Parameters: 150,813
+01/09 20:13 INFO ------------------------------
+01/09 20:13 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 20:13 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 20:14 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 20:14 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 20:14 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 20:14 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 20:14 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 20:14 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 20:14 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 20:14 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 20:14 INFO Built model.
+01/09 20:14 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 20:14 INFO ------------------------------
+01/09 20:14 INFO  Approximate Model Statistics 
+01/09 20:14 INFO ------------------------------
+01/09 20:14 INFO FLOPS per input: 204,377,682.0
+01/09 20:14 INFO Trainable Parameters: 150,813
+01/09 20:14 INFO ------------------------------
+01/09 20:14 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 20:14 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:17[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:17[0m [1;30mINFO[0m Built model.
+[32m01/09 20:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:17[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:17[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:17[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:17[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:17[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:17[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:17[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:18[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:20[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:20[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:20[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:20[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:20[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:21[0m [1;30mINFO[0m Built model.
+[32m01/09 20:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:21[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:21[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:21[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:21[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:21[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:21[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:21[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:21[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:25[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:25[0m [1;30mINFO[0m Built model.
+[32m01/09 20:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:25[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:25[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:25[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:25[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:25[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:25[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:25[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:25[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:26[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:26[0m [1;30mINFO[0m Built model.
+[32m01/09 20:26[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:26[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:26[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:26[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:26[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:26[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:26[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:26[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:26[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:27[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:27[0m [1;30mINFO[0m Built model.
+[32m01/09 20:27[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:27[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:27[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:27[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:27[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:27[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:27[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:27[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:27[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:28[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:28[0m [1;30mINFO[0m Built model.
+[32m01/09 20:28[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:28[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:28[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:28[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:28[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:28[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:28[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:29[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:29[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:30[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:30[0m [1;30mINFO[0m Built model.
+[32m01/09 20:30[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:30[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:30[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:30[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:30[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:30[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:30[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:30[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:30[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:33[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:33[0m [1;30mINFO[0m Built model.
+[32m01/09 20:33[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:33[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:33[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:33[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:33[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:33[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:33[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:33[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:33[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:34[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:34[0m [1;30mINFO[0m Built model.
+[32m01/09 20:34[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:34[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:34[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:34[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:34[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:34[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:34[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:34[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:34[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:36[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:36[0m [1;30mINFO[0m Built model.
+[32m01/09 20:36[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:36[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:36[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:36[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:36[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:36[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:36[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:36[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:36[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:37[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:37[0m [1;30mINFO[0m Built model.
+[32m01/09 20:37[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:37[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:37[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:37[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:37[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:37[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:37[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:37[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:37[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:40[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:40[0m [1;30mINFO[0m Built model.
+[32m01/09 20:40[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:40[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:40[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:40[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:40[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:40[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:40[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:40[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:40[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:41[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:41[0m [1;30mINFO[0m Built model.
+[32m01/09 20:41[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:41[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:41[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:41[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:41[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:41[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:41[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:41[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:41[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:42[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:42[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:42[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:42[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:42[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:42[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:43[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:43[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:43[0m [1;30mINFO[0m Built model.
+[32m01/09 20:43[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:43[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:43[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:43[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:43[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:43[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:43[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:43[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:43[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:44[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:44[0m [1;30mINFO[0m Built model.
+[32m01/09 20:44[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:44[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:44[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:44[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:44[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:44[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:44[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:44[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:44[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:47[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:47[0m [1;30mINFO[0m Built model.
+[32m01/09 20:47[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:47[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:47[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:47[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:47[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:47[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:47[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:47[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:47[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:50[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:50[0m [1;30mINFO[0m Built model.
+[32m01/09 20:50[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:50[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:50[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:50[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:50[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:50[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:50[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:51[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:51[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:55[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:55[0m [1;30mINFO[0m Built model.
+[32m01/09 20:55[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:55[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:55[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:55[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:55[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:55[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:55[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:55[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:55[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 20:57[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 20:57[0m [1;30mINFO[0m Built model.
+[32m01/09 20:57[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 20:57[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:57[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 20:57[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:57[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 20:57[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 20:57[0m [1;30mINFO[0m ------------------------------
+[32m01/09 20:57[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 20:57[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:00[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:00[0m [1;30mINFO[0m Built model.
+[32m01/09 21:00[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:00[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:00[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:00[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:00[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:00[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:00[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:00[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:00[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:01[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:01[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:01[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:01[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:01[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:01[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:02[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:02[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:02[0m [1;30mINFO[0m Built model.
+[32m01/09 21:02[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:02[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:02[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:02[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:02[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:02[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:02[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:02[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:02[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:04[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:04[0m [1;30mINFO[0m Built model.
+[32m01/09 21:04[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:04[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:04[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:04[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:04[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:04[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:04[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:04[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:04[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:06[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:06[0m [1;30mINFO[0m Built model.
+[32m01/09 21:06[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:06[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:06[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:06[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:06[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:06[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:06[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:06[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:06[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 21:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 21:10 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 21:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 21:10 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 21:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 21:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 21:10 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 21:10 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 21:10 INFO Built model.
+01/09 21:10 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 21:10 INFO ------------------------------
+01/09 21:10 INFO  Approximate Model Statistics 
+01/09 21:10 INFO ------------------------------
+01/09 21:10 INFO FLOPS per input: 204,377,682.0
+01/09 21:10 INFO Trainable Parameters: 150,813
+01/09 21:10 INFO ------------------------------
+01/09 21:10 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 21:10 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 21:16 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 21:16 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 21:16 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 21:16 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 21:16 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 21:16 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 21:16 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 21:16 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 21:16 INFO Built model.
+01/09 21:16 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 21:16 INFO ------------------------------
+01/09 21:16 INFO  Approximate Model Statistics 
+01/09 21:16 INFO ------------------------------
+01/09 21:16 INFO FLOPS per input: 204,377,682.0
+01/09 21:16 INFO Trainable Parameters: 150,813
+01/09 21:16 INFO ------------------------------
+01/09 21:16 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 21:16 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:17[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:17[0m [1;30mINFO[0m Built model.
+[32m01/09 21:17[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:17[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:17[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:17[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:17[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:17[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:17[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:17[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:17[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:21[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:21[0m [1;30mINFO[0m Built model.
+[32m01/09 21:21[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:21[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:21[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:21[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:21[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:21[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:21[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:21[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:21[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:24[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:24[0m [1;30mINFO[0m Built model.
+[32m01/09 21:24[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:24[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:24[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:24[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:24[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:24[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:24[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:24[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:24[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+[0m
+[32m01/09 21:25[0m [1;30mWARNING[0m [33m
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+[0m
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.[0m
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.[0m
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.[0m
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+[0m
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.[0m
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.[0m
+[32m01/09 21:25[0m [1;30mINFO[0m Built model.
+[32m01/09 21:25[0m [1;30mWARNING[0m [33mFrom /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`[0m
+[32m01/09 21:25[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:25[0m [1;30mINFO[0m  Approximate Model Statistics 
+[32m01/09 21:25[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:25[0m [1;30mINFO[0m FLOPS per input: 204,377,682.0
+[32m01/09 21:25[0m [1;30mINFO[0m Trainable Parameters: 150,813
+[32m01/09 21:25[0m [1;30mINFO[0m ------------------------------
+[32m01/09 21:25[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+[32m01/09 21:25[0m [1;30mINFO[0m Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 21:26 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 21:26 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 21:26 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 21:26 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 21:26 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 21:26 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 21:26 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 21:26 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 21:26 INFO Built model.
+01/09 21:26 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 21:26 INFO ------------------------------
+01/09 21:26 INFO  Approximate Model Statistics 
+01/09 21:26 INFO ------------------------------
+01/09 21:26 INFO FLOPS per input: 204,377,682.0
+01/09 21:26 INFO Trainable Parameters: 150,813
+01/09 21:26 INFO ------------------------------
+01/09 21:26 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 21:26 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 21:28 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 21:28 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 21:28 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 21:28 INFO Built model.
+01/09 21:28 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 21:28 INFO ------------------------------
+01/09 21:28 INFO  Approximate Model Statistics 
+01/09 21:28 INFO ------------------------------
+01/09 21:28 INFO FLOPS per input: 204,377,682.0
+01/09 21:28 INFO Trainable Parameters: 150,813
+01/09 21:28 INFO ------------------------------
+01/09 21:28 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 21:28 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 21:29 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 21:29 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 21:29 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 21:29 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 21:29 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 21:29 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 21:29 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 21:29 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 21:29 INFO Built model.
+01/09 21:29 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 21:29 INFO ------------------------------
+01/09 21:29 INFO  Approximate Model Statistics 
+01/09 21:29 INFO ------------------------------
+01/09 21:29 INFO FLOPS per input: 204,377,682.0
+01/09 21:29 INFO Trainable Parameters: 150,813
+01/09 21:29 INFO ------------------------------
+01/09 21:29 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 21:29 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 21:30 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 21:30 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 21:30 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 21:30 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 21:30 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 21:30 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 21:30 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 21:30 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 21:30 INFO Built model.
+01/09 21:30 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 21:30 INFO ------------------------------
+01/09 21:30 INFO  Approximate Model Statistics 
+01/09 21:30 INFO ------------------------------
+01/09 21:30 INFO FLOPS per input: 204,377,682.0
+01/09 21:30 INFO Trainable Parameters: 150,813
+01/09 21:30 INFO ------------------------------
+01/09 21:30 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 21:31 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+01/09 21:32 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+01/09 21:32 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+01/09 21:33 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+01/09 21:33 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+01/09 21:33 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+01/09 21:33 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+01/09 21:33 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+01/09 21:33 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+01/09 21:33 INFO Built model.
+01/09 21:33 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+01/09 21:33 INFO ------------------------------
+01/09 21:33 INFO  Approximate Model Statistics 
+01/09 21:33 INFO ------------------------------
+01/09 21:33 INFO FLOPS per input: 204,377,682.0
+01/09 21:33 INFO Trainable Parameters: 150,813
+01/09 21:33 INFO ------------------------------
+01/09 21:33 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+01/09 21:33 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+27/09 21:24 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+27/09 21:24 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+27/09 21:24 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+27/09 21:24 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+27/09 21:24 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+27/09 21:24 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+27/09 21:24 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+27/09 21:24 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+27/09 21:24 INFO Built model.
+27/09 21:24 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+27/09 21:24 INFO ------------------------------
+27/09 21:24 INFO  Approximate Model Statistics 
+27/09 21:24 INFO ------------------------------
+27/09 21:24 INFO FLOPS per input: 204,377,682.0
+27/09 21:24 INFO Trainable Parameters: 150,813
+27/09 21:24 INFO ------------------------------
+27/09 21:24 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+27/09 21:24 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+27/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+27/09 21:28 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+27/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+27/09 21:28 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+27/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+27/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+27/09 21:28 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+27/09 21:28 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+27/09 21:28 INFO Built model.
+27/09 21:28 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+27/09 21:28 INFO ------------------------------
+27/09 21:28 INFO  Approximate Model Statistics 
+27/09 21:28 INFO ------------------------------
+27/09 21:28 INFO FLOPS per input: 204,377,682.0
+27/09 21:28 INFO Trainable Parameters: 150,813
+27/09 21:28 INFO ------------------------------
+27/09 21:28 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+27/09 21:28 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
+27/09 21:36 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:66: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+27/09 21:36 WARNING 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+27/09 21:36 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:151: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+27/09 21:36 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+27/09 21:36 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:172: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+27/09 21:36 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:237: The name tf.image.resize_bilinear is deprecated. Please use tf.compat.v1.image.resize_bilinear instead.
+
+27/09 21:36 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1634: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+27/09 21:36 WARNING From /media/djoghurt/Storage/Documents/repos/eyeMouse/src/models/elg.py:162: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+27/09 21:36 INFO Built model.
+27/09 21:36 WARNING From /media/djoghurt/Storage/Programs/Miniconda3/envs/GazeML2/lib/python3.7/site-packages/tensorflow_core/python/profiler/internal/flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+27/09 21:36 INFO ------------------------------
+27/09 21:36 INFO  Approximate Model Statistics 
+27/09 21:36 INFO ------------------------------
+27/09 21:36 INFO FLOPS per input: 204,377,682.0
+27/09 21:36 INFO Trainable Parameters: 150,813
+27/09 21:36 INFO ------------------------------
+27/09 21:36 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/hourglass/model-4672654
+27/09 21:36 INFO Restoring parameters from /media/djoghurt/Storage/Documents/repos/eyeMouse/outputs/ELG_i60x36_f60x36_n32_m2/checkpoints/radius/model-4672654
